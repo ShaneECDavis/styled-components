@@ -27,7 +27,7 @@ const client = {
   module: moduleObj,
   plugins: [
     new HtemlWebPackPlugin({
-      template: src/client/index.html
+      template: 'src/client/index.html'
     })
   ]
 }
