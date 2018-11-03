@@ -1,0 +1,35 @@
+{
+  "name": "pudgytech-boilerplate",
+  "version": "1.0.0",
+  "description": "PudgyTech React Boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run build-server && npm run build-client",
+    "build-server": "babel src/server --out-dir ./dist",
+    "build-client": "babel src/client --copy-files --out-dir ./dist/public",
+    "start": "node ./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShaneECDavis/pudgytech-boilerplate.git"
+  },
+  "keywords": [
+    "Node",
+    "React"
+  ],
+  "author": "Shane Davis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShaneECDavis/pudgytech-boilerplate/issues"
+  },
+  "homepage": "https://github.com/ShaneECDavis/pudgytech-boilerplate#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.2.6",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^4.19.1"
+  }
+}
