@@ -3,12 +3,11 @@
 This is my react-boilerplate
 
 # Run
-npm start-dev - runs webpack -w and nodemon
+npm start-dev :: runs webpack -w and nodemon
 
 ## Setup
 
 npm install
-npm run build
 npm start
 
 # Clean house
