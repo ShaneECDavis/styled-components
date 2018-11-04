@@ -18,15 +18,21 @@ npm install - install npm again for a clean setup
 npm run build - rebuilds webpack
 
 
-#Customize
-Now that you've got the code, follow these steps to get acclimated:
+#To use this PudgyTech-React-Boilerplate, you'll need to take the following steps:
 
-Update project name and description in package.json and .travis.yml files
+Don't fork or clone this repo! Instead, create a new, empty directory on your machine and git init (or create an empty repo on Github and clone it to your local machine)
+Run the following commands:
+git remote add boilermaker https://github.com/FullstackAcademy/boilermaker.git
+git fetch boilermaker
+git merge boilermaker/master
+Why did we do that? Because every once in a while, boilermaker may be updated with additional features or bug fixes, and you can easily get those changes from now on by entering:
 
-npm install, or yarn install - whatever you're into
+git fetch boilermaker
+git merge boilermaker/master
 
-Create two postgres databases: boilermaker and boilermaker-test (you can substitute these with the name of your own application - just be sure to go through and change the package.json and .travis.yml to refer to the new name)
 
+
+// Not sure if below is needed
 By default, running npm test will use boilermaker-test, while regular development uses boilermaker
 Create a file called secrets.js in the project root
 
