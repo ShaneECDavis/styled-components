@@ -18,11 +18,11 @@ npm install - install npm again for a clean setup
 npm run build - rebuilds webpack
 
 
-#To use this PudgyTech-React-Boilerplate, you'll need to take the following steps:
+# To use this PudgyTech-React-Boilerplate, you'll need to take the following steps:
 
 Don't fork or clone this repo! Instead, create a new, empty directory on your machine and git init (or create an empty repo on Github and clone it to your local machine)
 Run the following commands:
-git remote add boilermaker https://github.com/FullstackAcademy/boilermaker.git
+git remote add boilermaker https://github.com/ShaneECDavis/pudgytech-boilerplate.git
 git fetch boilermaker
 git merge boilermaker/master
 Why did we do that? Because every once in a while, boilermaker may be updated with additional features or bug fixes, and you can easily get those changes from now on by entering:
