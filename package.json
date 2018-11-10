@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "build-client": "webpack",
-    "build-client-watch":"webpack -w",
+    "build-client-watch": "webpack -w",
     "build-babel": "npm run build-babel-server && npm run build-babel-client",
     "build-babel-server": "babel src/server --out-dir ./dist",
     "build-babel-client": "babel src/client --copy-files --out-dir ./dist/public",
@@ -34,7 +34,8 @@
     "raf": "^3.4.1",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
-    "rimraf": "^2.6.2"
+    "rimraf": "^2.6.2",
+    "styled-components": "^4.0.3"
   },
   "jest": {
     "setupTestFrameworkScriptFile": "./src/enzyme.setup.js",
